@@ -150,12 +150,13 @@
   margin:20px;
   font-family: 'Fredoka One', cursive;
   color:white;
+  font-size: 24px;
 }
 .frase2{
   text-align: center;
   font-family: 'Fredoka One', cursive;
   color: rgb(255, 255, 255);
-  
+  font-size: 17px;
 }
 
 .butt{
@@ -168,4 +169,5 @@
   text-decoration: none;
   font-size: 16px;
   margin: 110px;
+
 }

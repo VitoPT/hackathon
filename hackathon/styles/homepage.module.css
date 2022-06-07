@@ -1,0 +1,59 @@
+.geral{
+    background-color: rgb(213, 254, 213);
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-end;
+    background-position: top;
+    
+}
+.escrita{
+    flex-direction: row;
+    margin:auto;
+    display: flex;
+}
+.tempoEspera{
+    background-color:inherit;
+    /* background-color: inherit; */
+    margin-right: 10px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #464646;
+
+}
+.pessoas{
+    background-color: inherit;
+    /* background-color: inherit; */
+    margin-right: 10px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #464646;
+}
+.metadeBaixo{
+    background-color: white;
+    width: 100vw;
+    height: 70vh;
+    text-align: center;
+    
+}
+
+        
+.jogo{
+    background-color: inherit;
+    /* background-color: inherit; */
+    margin-right: 10px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #464646;
+}
+
+.catalgo{
+    background-color: inherit;
+    /* background-color: inherit; */
+    margin-right: 10px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #464646;
+}
