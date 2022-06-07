@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev -p 33050",
+    "build": "next build -p 33050",
+    "start": "next start -p 33050",
+    "lint": "next lint -p 33050"
   },
   "dependencies": {
     "mongodb": "^4.7.0",
