@@ -1,28 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&family=Fredoka+One&family=VT323&display=swap');
 
-.logoVoltar{
-    display: flex;
-    justify-content: center
-    
-}
-
-.carrossel{
-    border: 2px solid green;
-    margin-top:20px
-}
-
-.voltar{
-    border: 3px solid green ;
-    width: 70px;
-    height: 70px;
-    border-radius: 5px;
-    margin-top: 35px;
+.divGrande{
     text-align: center;
-    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulos{
     font-family: 'Fredoka One', cursive;
-    padding: 11px;
     font-size: 35px;
-    color: green;
+    color:green;
+}
+.desc{
+    font-family: 'Fredoka One', cursive;
+    color:green;
+    font-size: 20px;
 }
 .logoTipo{
     font-family: 'Fredoka One', cursive;

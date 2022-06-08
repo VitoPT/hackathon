@@ -6,6 +6,7 @@ const DB_NAME = "db_bianca"
 const COLLECTION_MUSIC = "db_music"
 const COLLECTION_FAKE = "db_fake"
 const COLLECTION_PRIZE = "db_prize"
+const COLLECTION_AUTH = "db_auth"
 
 let client;
 
@@ -38,6 +39,20 @@ export  async function getFakeAnswers() {
 export  async function isAnswerBD(answer) {
     const collection = await getMongoCollection(DB_NAME, COLLECTION_MUSIC)
     return (await collection.find({ author: answer }).toArray()).length > 0
+
+}
+
+
+
+
+export  async function createAuth(auth) {
+    const collection = await getMongoCollection(DB_NAME, COLLECTION_AUTH)
+    return await collection.insertOne({auth: auth})
+
+}
+export  async function isAuth(auth) {
+    const collection = await getMongoCollection(DB_NAME, COLLECTION_AUTH)
+    return (await collection.find({ auth: auth }).toArray()).length = 0
 
 }
 

@@ -130,16 +130,18 @@
 
 
 .container{
-    background-image: url("/pagina1.jpeg");
+    background-image: url("/renovadda.png");
     background-repeat: no-repeat;
     justify-content: flex-end;
     background-position: top;
+    background-position: center top;
+    
 }
 .fundoImagem{
-  background-color: rgb(194, 219, 70);
+  background-color: rgb(221, 253, 221);
   width: 100vw;
-  height: 48vh;
-  border-radius: 35px 35px 0px 0px;
+  height: 58vh;
+  border-radius: 65px 65px 0px 0px;
   text-align: center;
   border: 3px solid rgb(39, 104, 37);
   
@@ -149,25 +151,25 @@
   text-align: center;
   margin:20px;
   font-family: 'Fredoka One', cursive;
-  color:white;
+  color:black;
   font-size: 24px;
 }
 .frase2{
   text-align: center;
   font-family: 'Fredoka One', cursive;
-  color: rgb(255, 255, 255);
+  color:black;
   font-size: 17px;
 }
 
 .butt{
   border-radius: 10px;
-  background-color: rgb(67, 67, 67); 
+  background-color:white; 
   border: 1px solid black;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 110px;
+  margin-top: 180px;
 
 }

@@ -5,13 +5,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    background-color: rgb(221, 253, 221);
 
 }
 .cima{
-    background-color: white;
     text-align: center;
     display: flex;
+    flex-direction:column;
+    width: 100vw;
 } 
 
 .baixo{
@@ -23,33 +25,40 @@
         
 
 .tempoEspera{
-    background-color: white;
+    font-weight: bold;
+    font-size: 28px;
     /* background-color: inherit; */
     width: 150px;
     height: 100px;
-    text-align: left;
-
+    width: 100vw;
 }
 
 .tempoMin{
     font-weight: bold;
-    /* color: green */
+     color: rgb(0, 92, 0) ;
+     width: 100vw;
+     font-size: 35px;
+        margin-top: -5px;
 }
 
 .pessoas{
-    background-color: white;
+    font-weight: bold;
+    font-size: 28px;
     /* background-color: inherit; */
     width: 150px;
     height: 100px;
-    text-align: Right;
+    width: 100vw;
 }
 .quantPessoas{
     font-weight: bold;
-    /* color: green; */
+    color: rgb(0, 92, 0) ;
+    width: 100vw;
+    font-size: 35px;
+    margin-top: -5px;
 }
 
 .jogo{
-    background-color:white;
+    margin-bottom: 25px;
     /* background-color: inherit; */
     background-image: url("/cabazV.jpeg");
     color: white;
@@ -66,7 +75,6 @@
 
 
 .catalgo{
-    background-color:white;
     /* background-color: inherit; */
     background-image: url("/fruits.png");
     color: white;
@@ -79,6 +87,10 @@
     box-shadow: 0 0 10px #464646;
     font-family: 'Fredoka One', cursive;
     
+}
+.logoCarro{
+   margin-top: 20px;
+   margin-right: 10px;
 }
 .textoCatalogo{
     margin-left: 10px; 

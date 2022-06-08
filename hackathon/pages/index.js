@@ -14,6 +14,7 @@ export default function LandingPage() {
   
         <div className={styles.fundoImagem} >
           <div className={styles.textoTudo}>
+            <img></img>
             <div className={styles.frase}>
               Bem-vindo à nossa Loja !
             </div>
