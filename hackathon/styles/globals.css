@@ -15,3 +15,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.carousel .control-next.control-arrow:before {
+  border-left-color: rgb(0, 0, 0);
+  
+  border-left-width: 25px;
+  
+} 
+
+.carousel .control-prev.control-arrow:before {
+  border-right-color: black;
+  border-right-width: 25px;
+  
+}

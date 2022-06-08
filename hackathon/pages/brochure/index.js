@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from '../../styles/brochure.module.css'
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image'
@@ -19,7 +18,7 @@ export default function NextJsCarousel() {
       </div>
       <div>
          
-         <Carousel className={styles.carrossel}>
+         <Carousel  showArrows className={styles.carrossel}>
             <div>
                <Image
                   src="/1.png"
