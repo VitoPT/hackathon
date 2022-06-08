@@ -11,6 +11,12 @@ export default function Prize() {
     const [answers, setAnswers] = useState([])
     const [hasPlayed, setHasPlayed] = useState(false)
 
+    useEffect(() => {
+        console.log(window)
+        if (window !== "undefined") {
+            setHasPlayed(window.localStorage.getItem("hasPlayed"))
+        }
+    }, [])
 
     useEffect(() => {
         async function CallBack() {
@@ -41,17 +47,18 @@ export default function Prize() {
         
         if (json.a) {
             router.push("/prizes/award")
+            localStorage.setItem("hasPlayed", true)
             
         } else {
             router.push("/prizes/tryagain")
-            
+            localStorage.setItem("hasPlayed", true)
         }
 
         // e == json.a ? 
     }
 
     console.log(hasPlayed, "basbasnna")
-    if (hasPlayed !== true) {
+    if (hasPlayed !== "true") {
         return (
             <div className={styles.mains}>
                 <Head>
