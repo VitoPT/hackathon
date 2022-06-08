@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/awards.module.css'
+import styles from '../../../styles/awards.module.css'
 import { useRouter } from "next/router"
+import { useState } from 'react'
+
+
 export default function award() {
   
 
-
+  
   return (
     
     <div className={styles.divGrande}>

@@ -3,6 +3,9 @@ import Image from 'next/image'
 import styles from '../../styles/prize.module.css'
 import { useRouter } from "next/router"
 import { useState, useEffect } from 'react'
+
+
+
 export default function Prize() {
     const router = useRouter()
     const [answers, setAnswers] = useState([])
@@ -25,6 +28,7 @@ export default function Prize() {
     }, [])
 
     async function checkAnswer(e) {
+        
         const res = await fetch(
             `../api/checkAnswer?answer=${e}`,
             {
@@ -34,10 +38,13 @@ export default function Prize() {
         const json = await res.json()
         console.log("TESTE", json.a)
         console.log("Fim do UseEffect")
+        
         if (json.a) {
-            router.push("/award")
+            router.push("/prizes/award")
+            
         } else {
-            router.push("/tryagain")
+            router.push("/prizes/tryagain")
+            
         }
 
         // e == json.a ? 
@@ -72,7 +79,7 @@ export default function Prize() {
                         key={e}
                     > {e}
                     </div>))}
-                    {setHasPlayed(true)}
+                    
 
 
                 </div>

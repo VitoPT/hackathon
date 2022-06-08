@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/noawards.module.css'
+import styles from '../../../styles/noawards.module.css'
 import { useRouter } from "next/router"
 export default function tryAgain() {
     const router = useRouter()
